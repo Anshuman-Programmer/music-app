@@ -31,7 +31,7 @@ const App = () => {
       </div>
 
       {activeSong?.title && (
-        <div className="absolute h-28 bottom-0 left-0 right-0 flex animate-slideup  backdrop-blur-lg z-10">
+        <div className="absolute h-28 bottom-[56px] sm:bottom-0 left-0 right-0 flex animate-slideup  backdrop-blur-lg z-10">
           <MusicPlayer />
         </div>
       )}
